@@ -4,7 +4,7 @@ import styles from "./style";
 import { Navbar, Footer } from './components';
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
